@@ -104,7 +104,7 @@ function checkWhetherNeedAgain(resp, fun, url, name) {
 function showMsg() {
   return new Promise((resolve) => {
     $.msg($.name, "", $.result.join("\n"));
-    resolve();
+    resolve(); 
   });
 }
 
