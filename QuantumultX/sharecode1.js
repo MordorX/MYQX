@@ -17,7 +17,7 @@ const shareCodes = [
   {
     zd: $.getdata("zd_shareCode2") || "olmijoxgmjuty5mdcpkgmkiyerzkreikajf5kca",
     nc: $.getdata("nc_shareCode2") || "937320b6fe4b4891827690bd304e947a",
-    mc: $.getdata("mc_shareCode2") || "MTE1NDUwMTI0MDAwMDAwMDM2MzcyNTAz=",
+    mc: $.getdata("mc_shareCode2") || "MTE1NDUwMTI0MDAwMDAwMDM2MzcyNTAz",
     ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5m9cZ2b62C9KlUpTcdMswyE",
     jxgc: $.getdata("jx_shareCode2") || "KcDoN1P7d9iP4BFX6UHOmA==",
   },
