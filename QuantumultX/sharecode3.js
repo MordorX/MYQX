@@ -7,23 +7,23 @@
  */
 const $ = new Env("互助码");
 const shareCodes = [
-  {
-    zd: $.getdata("zd_shareCode1") || "zfaq4vqopicu53l4midx6h7gte",
-    nc: $.getdata("nc_shareCode1") || "4f0e21257468423da130588d85fbea1e",
-    mc: $.getdata("mc_shareCode1") || "MTE1NDAxNzgwMDAwMDAwNDI2Nzc4NTE=",
-    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5uCVobZ7UKTjKw",
-    jxgc: $.getdata("jx_shareCode1") || "7CHbtD3pGNdh1pFMGzeMgg==",
+{
+  zd: $.getdata("zd_shareCode1") || "zfaq4vqopicu53l4midx6h7gte",
+  nc: $.getdata("nc_shareCode1") || "4f0e21257468423da130588d85fbea1e",
+  mc: $.getdata("mc_shareCode1") || "MTE1NDAxNzgwMDAwMDAwNDI2Nzc4NTE=",
+  ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5uCVobZ7UKTjKw",
+  jxgc: $.getdata("jx_shareCode1") || "7CHbtD3pGNdh1pFMGzeMgg==",
   },
-  {
-    zd: $.getdata("zd_shareCode2") || "",
-    nc: $.getdata("nc_shareCode2") || "",
-    mc: $.getdata("mc_shareCode2") || "",
-    ddgc: $.getdata("dd_shareCode2") || "",
-    jxgc: $.getdata("jx_shareCode2") || "",
-  },
+    {
+      zd: $.getdata("zd_shareCode2") || "",
+      nc: $.getdata("nc_shareCode2") || "",
+      mc: $.getdata("mc_shareCode2") || "",
+      ddgc: $.getdata("dd_shareCode2") || "",
+      jxgc: $.getdata("jx_shareCode2") || "",
+    },
 ];
 $.result = [];
-$.random = Math.floor(Math.random() * 0);
+$.random = Math.floor(Math.random() * 60);
 
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
@@ -74,7 +74,7 @@ function create(path, name) {
         resolve(err);
         return;
       }
-        try {
+      try {
         const needAgain = await checkWhetherNeedAgain(resp, create, path, name);
         if (needAgain) return;
         const { message } = JSON.parse(data);
