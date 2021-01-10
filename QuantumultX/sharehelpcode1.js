@@ -1,7 +1,7 @@
 /*
 **由于原脚本经常超时，重构了代码，以便更好的支持互助码提交
 **京东互助码多账号提交，脚本兼容: QuantumultX, Surge, Loon，小火箭
-                                                  1.Author: Cuttlefish 需要将本脚本下载至本地进行编辑
+1.Author: Cuttlefish 需要将本脚本下载至本地进行编辑
 由于tg作者服务器资源有限，提交时经常会无响应，故手动执行，看日志内容
 2.助力码请自行订阅本库boxjs订阅，在京东云助力中进行设置，目前只写了3个账号的助力码提交。
 boxjs订阅：https://raw.githubusercontent.com/photonmang/quantumultX/master/photonmang.boxjs.json
@@ -60,7 +60,7 @@ const  zd_shareCodeArr = [];
 const  nc_shareCodeArr = [];
 const  mc_shareCodeArr = [];
 const  joy_shareCodeArr = [];
-let K = 0;
+let K = 3;
 let tz='';
 let gg;
 const dd=1//单次任务延迟,默认1秒
