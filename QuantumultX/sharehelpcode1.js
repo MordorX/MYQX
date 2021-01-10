@@ -60,7 +60,7 @@ const  zd_shareCodeArr = [];
 const  nc_shareCodeArr = [];
 const  mc_shareCodeArr = [];
 const  joy_shareCodeArr = [];
-let K = 3;
+let K = 0;
 let tz='';
 let gg;
 const dd=1//单次任务延迟,默认1秒
