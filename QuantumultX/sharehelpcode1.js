@@ -42,12 +42,12 @@ const nc_shareCode2 = $.getdata('937320b6fe4b4891827690bd304e947a') ;
 const mc_shareCode2 = $.getdata('MTE1NDUwMTI0MDAwMDAwMDM2MzcyNTAz') ;
 const joy_shareCode2 = $.getdata('FybmJWCqHuM_z2h0OwdbC6t9zd5YaBeE') ;
 
-const dd_shareCode3 = $.getdata('T012a2Dalp2ULf1pCjVWnYaS5kRrbA') ;
-const jx_shareCode3 = $.getdata('7CHbtD3pGNdh1pFMGzeMgg==') ;
-const zd_shareCode3 = $.getdata('zfaq4vqopicu53l4midx6h7gte') ;
-const nc_shareCode3 = $.getdata('4f0e21257468423da130588d85fbea1e') ;
-const mc_shareCode3 = $.getdata('MTE1NDAxNzgwMDAwMDAwNDI2Nzc4NTE=') ;
-const joy_shareCode3 = $.getdata('b3KruZdlQmLBNRJKBq50aA==') ;
+const dd_shareCode3 = $.getdata('dd_shareCode3') ;
+const jx_shareCode3 = $.getdata('jx_shareCode3') ;
+const zd_shareCode3 = $.getdata('zd_shareCode3') ;
+const nc_shareCode3 = $.getdata('nc_shareCode3') ;
+const mc_shareCode3 = $.getdata('mc_shareCode3') ;
+const joy_shareCode3 = $.getdata('joy_shareCode3') ;
 
 let dd_shareCodeVal = "";
 let jx_shareCodeVal = "";
