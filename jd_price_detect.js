@@ -20,7 +20,8 @@
   cron "5 0 * * *" script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒
 
   [Quanx]
-  5 0 * * * https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒
+  5 0 * * *   https://raw.githubusercontent.com/SZH726/SZH_scripts/main/jd_price_detect.js?token=ARL6VFCRG2Q46EWINLP6JT3AICMSI, tag=京东价格提醒
+  https://raw.githubusercontent.com/SZH726/SZH_scripts/main/jd_price_detect.js?token=ARL6VFCRG2Q46EWINLP6JT3AICMSI
 
   [Surge]
   京东价格提醒 = type=cron,cronexp="5 0 * * *",script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
