@@ -8,7 +8,6 @@
 		"0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/52pj.png, enabled=true",
 		"0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png, enabled=true",
 		"10 8-22/2 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png, enabled=true",
-		"30 8-20/1 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png, enabled=true",
 	    	"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/exchangerate.png, enabled=true",
 		"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js, tag=机场流量, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/airport.png, enabled=true",
 		"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true",
@@ -23,7 +22,6 @@
 		"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png, enabled=true",
 		"1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
 		"0 30 6-23 * * ? https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liantongnotice.js, tag=联通流量话费提醒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true",
-		"30 8-20/1 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png, enabled=true",
   		"00 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, tag=滴滴出行_每日签到,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true enabled=true",
 
     ]
