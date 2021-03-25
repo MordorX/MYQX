@@ -1,5 +1,5 @@
 
-hostname = m.client.10010.com,  bosp-api.xiaojukeji.com, api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,*.diditaxi.com.cn,common.diditaxi.com.cn
+hostname = m.client.10010.com,  bosp-api.xiaojukeji.com,zhiyou.smzdm.com, api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,*.diditaxi.com.cn,common.diditaxi.com.cn
 
 # blackmatrix7
 # 中国联通App每日签到与抽奖
@@ -7,6 +7,10 @@ hostname = m.client.10010.com,  bosp-api.xiaojukeji.com, api.didialift.com,bosp-
 # [task_local]
 # 15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js, tag=联通_签到与抽奖,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true
 ^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js
+# 什么值得买每日自动签到
+^https?:\/\/zhiyou\.smzdm\.com\/user$ url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
+^https?:\/\/user-api\.smzdm\.com\/user_login\/normal$ url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js
+^https?:\/\/user-api\.smzdm\.com\/user_login\/normal$ url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
 
 
 
@@ -32,5 +36,7 @@ hostname = m.client.10010.com,  bosp-api.xiaojukeji.com, api.didialift.com,bosp-
 ^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
 # 获取GroupId
 ^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
+
+https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 
 
