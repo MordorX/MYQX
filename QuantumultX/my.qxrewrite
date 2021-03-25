@@ -21,6 +21,3 @@ hostname = m.client.10010.com,  bosp-api.xiaojukeji.com,
 ^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
 
 
-#^https:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/index\? url script-request-header DiDi_ticket.js
-#or remote
-#^https:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/index\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_ticket.js
