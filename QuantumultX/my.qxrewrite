@@ -1,9 +1,21 @@
 
 hostname = m.client.10010.com
 
-
+# blackmatrix7
 # 中国联通App每日签到与抽奖
 # 仓库 https://github.com/blackmatrix7/ios_rule_script/tree/master/script
 # [task_local]
-# 15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js, tag=联通_签到与抽奖, enabled=true
+# 15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js, tag=联通_签到与抽奖,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true
 ^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js
+
+
+
+# zZPiglet
+# 仓库 https://github.com/zZPiglet/Task/tree/master
+# [task_local]
+#[task_local]
+#0 1,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
+# APP
+^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+# MiniApp
+^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
