@@ -1,5 +1,5 @@
 
-hostname = m.client.10010.com,  as.xiaojukeji.com,  common.diditaxi.com.cn
+hostname = m.client.10010.com,  bosp-api.xiaojukeji.com,
 
 # blackmatrix7
 # 中国联通App每日签到与抽奖
@@ -16,6 +16,11 @@ hostname = m.client.10010.com,  as.xiaojukeji.com,  common.diditaxi.com.cn
 #[task_local]
 #0 1,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
 # APP
-^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+#^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
 # MiniApp
-^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+#^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+
+
+#^https:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/index\? url script-request-header DiDi_ticket.js
+#or remote
+^https:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/index\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_ticket.js
