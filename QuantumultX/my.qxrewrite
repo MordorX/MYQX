@@ -1,5 +1,5 @@
 
-hostname = m.client.10010.com,  bosp-api.xiaojukeji.com,zhiyou.smzdm.com, api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,*.diditaxi.com.cn,common.diditaxi.com.cn
+hostname = api.m.jd.com, m.client.10010.com,  bosp-api.xiaojukeji.com,zhiyou.smzdm.com, api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,*.diditaxi.com.cn,common.diditaxi.com.cn
 
 # blackmatrix7
 # 中国联通App每日签到与抽奖
@@ -41,5 +41,6 @@ https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.gi
 
 # 京东 NobyDa cookie
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
 
 
