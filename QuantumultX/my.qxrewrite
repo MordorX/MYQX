@@ -39,7 +39,7 @@ hostname = m.client.10010.com,  bosp-api.xiaojukeji.com,zhiyou.smzdm.com, api.di
 
 https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 
-# 京东 cookie
+# 京东 NobyDa cookie
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 
