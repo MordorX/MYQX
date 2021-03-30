@@ -2,7 +2,6 @@
     "name": "MYgallery",
     "description": "",
     "task": [   
-	   	 "10 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd_tuan.js, tag=京东赚京东开团, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true",
 	   	 "57,58,59 59 23 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js, tag=东东超市兑换奖品1, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true",
 	   	 "57,58,59 59 23 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js, tag=东东超市兑换奖品2, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true",
 	   	 "57,58,59 59 23 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js, tag=东东超市兑换奖品3, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true",
