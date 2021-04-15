@@ -20,10 +20,12 @@ hostname = api.m.jd.com, m.client.10010.com,  wq.jd.com, m.jingxi.com, bosp-api.
 #[task_local]
 #0 1,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
 # APP
-^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+#^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
 # MiniApp
-^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+#^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
 
+# blackmatrix7
+# 仓库 https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing
 
 # 滴滴出行每日自动签到
 # 获取Token
@@ -37,6 +39,9 @@ hostname = api.m.jd.com, m.client.10010.com,  wq.jd.com, m.jingxi.com, bosp-api.
 # 获取GroupId
 ^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
 
+
+
+# 52破解
 https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 
 # 京东 NobyDa cookie
