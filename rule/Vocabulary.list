@@ -9,3 +9,5 @@
 # TOTAL: 1
 HOST-SUFFIX,vocabulary.com,Vocabulary
 HOST-KEYWORD,vocabulary,Vocabulary
+HOST-SUFFIX,amazonaws.com,Vocabulary
+HOST-KEYWORD,amazonaws,Vocabulary
