@@ -1,0 +1,11 @@
+# NAME: Vocabulary
+# AUTHOR: Szh
+# REPO: https://github.com/SZH726/MYQX/edit/main/rule/Vocabulary.list
+# UPDATED: 2022-09-02 11:08:46
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 1
+# IP-CIDR: 0
+# USER-AGENT: 0
+# TOTAL: 1
+HOST-SUFFIX,vocabulary.com,Vocabulary
+HOST-KEYWORD,vocabulary,Vocabulary
